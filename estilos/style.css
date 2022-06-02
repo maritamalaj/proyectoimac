@@ -396,7 +396,7 @@ section img  {
 
 /***** Entrega Digital *****/
 
-.send_digital{
+/*.send_digital{
     display: grid; 
     grid-template-columns: 1fr; 
     grid-template-rows: repeat(3, 1fr);
@@ -432,7 +432,7 @@ section img  {
     margin: 35px;
     margin-bottom: 60px;
   
-}
+}*/
 
 /********** Turnos *********/
 
@@ -487,7 +487,7 @@ h1{
 
 
 /*********** Instituto*******/
-#inst_title {
+/*#inst_title {
     text-align: center;
     padding: 40px;
 }
@@ -508,7 +508,7 @@ h1{
     gap: 10px;
     justify-content: space-evenly;
     padding: 20px 50px
-}
+}*/
 
 
 

@@ -10,11 +10,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"rel="stylesheet">
+    
+
+    <!--boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!--font awesome--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Animaciones-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <!--CSS -->
     <link rel="stylesheet" href="../estilos/style.css">
+
+
+
+
+
+
+
+
 </head>
+
 
 <body>
     <header>
+    <nav class="navbar navbar-expand-lg bg-$azul-800 ">
+       <a href="../index.html"><img class="logo_navbar" src="../multimedia/logo.jpg" alt="logo imac"width="30" height="24" class="d-inline-block align-text-top"></a> 
+       <div class="container-fluid">
+         <a class="navbar-brand text-white" href="#">Imagenes Medicas Cordoba</a>
+         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+           <div class="navbar-nav text-white ">
+             <a class="nav-link active text-white " aria-current="page" href="./page/servicios.html">Servicios</a>
+             <a class="nav-link text-white " href="./page/intituto.html">Instituto</a>
+             <a class="nav-link text-white " href="./page/contactos.html">Contactos</a>
+             <a class="nav-link text-white " href="./page/turnos.html">Turnos</a>
+             <a class="nav-link text-white " href="./page/entregaDeEstudios.html">Entrega de Estudios</a>
+           </div>
+         </div>
+       </div>
+     </nav>
+   </header>
+
+    
+    <!--header>
         <nav>
             <a href="../index.html"><img class="logo_navbar" src="../multimedia/logo.jpg" alt="logo imac"></a>
 
@@ -28,12 +72,56 @@
                 <li class="item"><a href="./entregaDeEstudios.html">Entrega De Estudios</a></li>
             </ul>
         </nav>
-    </header>
+    </header-->
 
      
     <h1>Turnos</h1>
+         
 
-    <section class="turnos_item">
+    <form>
+        <fieldset disabled>
+        <legend class="text-dark">Turnos para Diagnóstico por imágenes y Especialidades Médicas</legend>
+        <legend class="text-dark">turnos@imac.com.ar</legend>
+        
+          <legend class="text-dark"><i class="fa-solid  fa-phone text-dark"></i>Tel:(+54) 0351 423400</legend>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">Nombre y Apellido </label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Nombre y Apellido">
+          </div>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">Documento </label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="DNI">
+          </div>
+          <div class="mb-3">
+            <label for="disabledTextInput" class="form-label">Obra Social </label>
+            <input type="text" id="disabledTextInput" class="form-control" placeholder="Nº de afiliado">
+          </div>
+          <div class="mb-3">
+            <label for="disabledSelect" class="form-label">Especialidad en diag por Imágen</label>
+            <select id="disabledSelect" class="form-select">
+              <option>Radiografía</option>
+              <option>Mamografía</option>
+              <option>Tomografía</option>
+              <option>Ecografía</option>
+              <option>Resonancia Magnética</option>
+            </select>
+          </div>
+          <div class="mb-3">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="disabledFieldsetCheck" disabled>
+              <label class="form-check-label" for="disabledFieldsetCheck">
+                Estoy de Acuerdo
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </fieldset>
+      </form>
+
+
+
+
+     <!--section class="turnos_item">
          
         <section class="take_turnos">
              <h2> Gestión de turnos para Diagnostico por imágenes y Especialidades Médicas </h2>
@@ -51,9 +139,46 @@
             <h2>Turno consultorios Médicos</h2>
             <input class="botons" type="submit" value="Sacar Turno">
         </section>
- </section>
+ </section-->
 
-    <footer>
+<br>
+<br>
+<br>
+  <footer class="text white pt-4 pb-3 bg-dark border-top border-primary">
+    <div class="container text-center text-md-left ">
+        <div class="row text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <a href="#" class="text-resert"><i class="fa-solid fa-location-pin"></i></a>
+                <h5 clas="text -uppercase mb-4 font-weight-bold text-light">Donde Estamos</h5>
+                <p>Av Naciones Unidas 452 cod postal 5000 Cordoba - Argentina</p>
+             </div>
+
+             <div class="col-md-2 col-lg-2 Col-xl-2 mx-auto mt-3">
+                 <a href="#" class="text-resert"><i class="fa-solid fa-phone"></i></a>
+                 <h5 class="text -uppercase mb-4 font-weight-bold text-white" >Nuestras lineas Rotativas</h5>
+                 <p>(0351) 420 2000 Lunes a viernes 08:00 a 20:00 hs</p>
+             </div>
+             
+             <div class="col-md-3 col-lg-2 Col-xl-2 mx-auto mt-3">
+                 <lu class="text -uppercase mb-4 font-weight-bold text-white list-unstyled">Redes Sociales</lu>
+                 <li class="d-flex justify-content-between">
+                    <a href="https://es-la.facebook.com" class="text-resert"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://ar.linkedin.com" class="text-resert"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com" class="text-resert"><i class="fa-brands fa-linkedin-in"></i></a>
+                 </li>
+             </div>
+
+             </div>
+
+        </div>
+
+    </div>  
+    <div>
+    <br>
+
+
+
+    <!--ooter>
         <div class="footer">
             <img class="footer_img" src="../multimedia/logo.jpg" alt="logoimac">
 
@@ -64,11 +189,19 @@
                 <li class="footer_item"><a href="./turnos.html">Turnos</a></li>
                 <li class="footer_item"><a href="./entregaDeEstudios.html">Entrega De Estudios</a></li>
             </ul>
-        </div>
+        </div-->
         <em> MAM All Rights Reserved - Terminos Legales.</em>
     </footer>
 
 
+
+
+
+
+
+
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
