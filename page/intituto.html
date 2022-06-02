@@ -11,11 +11,99 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <!--boostrap-->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+
+    <!--font awesome--> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <!-- Animaciones-->
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+
+    <!--CSS -->
     <link rel="stylesheet" href="../estilos/style.css">
+    
 </head>
 
 <body>
-    <header>  
+    <header>
+        <nav class="navbar navbar-expand-lg bg-$azul-800 ">
+           <a href="../index.html"><img class="logo_navbar" src="../multimedia/logo.jpg" alt="logo imac"width="30" height="24" class="d-inline-block align-text-top"></a> 
+           <div class="container-fluid">
+             <a class="navbar-brand text-white" href="#">Imagenes Medicas Cordoba</a>
+             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+             </button>
+             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+               <div class="navbar-nav text-white ">
+                 <a class="nav-link active text-white " aria-current="page" href="./page/servicios.html">Servicios</a>
+                 <a class="nav-link text-white " href="./page/intituto.html">Instituto</a>
+                 <a class="nav-link text-white " href="./page/contactos.html">Contactos</a>
+                 <a class="nav-link text-white " href="./page/turnos.html">Turnos</a>
+                 <a class="nav-link text-white " href="./page/entregaDeEstudios.html">Entrega de Estudios</a>
+               </div>
+             </div>
+           </div>
+         </nav>
+       </header>
+
+
+<h1>Diagnóstico por Imágenes</h1>
+    <h3>Conocé todos los estudios que realizamos en nuestro centro</h3>
+    <div id="carouselExampleCaptions" class="carousel slide w-75 mt-5" data-bs-ride="false">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 5"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 6"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 7"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 8"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active bg-$azul-800 ">
+            <img src="../multimedia/tcomp.jpeg" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/rmn.jpeg" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="../multimedia/radio.jpeg" class="d-block w-50" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+
+
+
+
+
+
+
+    <!--header>  
         <nav>
             <a href="../index.html"><img class="logo_navbar" src="../multimedia/logo.jpg" alt="logo imac"></a>
             
@@ -63,8 +151,43 @@
         </ul>
        </div>
         <em> MAM All Rights Reserved - Terminos Legales.</em>
-    </footer>
-   
+    </footer-->
+  <footer class="text white pt-4 pb-3 bg-dark border-top border-primary">
+    <div class="container text-center text-md-left ">
+        <div class="row text-md-left">
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                <a href="#" class="text-resert"><i class="fa-solid fa-location-pin"></i></a>
+                <h5 clas="text -uppercase mb-4 font-weight-bold text-light">Donde Estamos</h5>
+                <p>Av Naciones Unidas 452 cod postal 5000 Cordoba - Argentina</p>
+             </div>
+
+             <div class="col-md-2 col-lg-2 Col-xl-2 mx-auto mt-3">
+                 <a href="#" class="text-resert"><i class="fa-solid fa-phone"></i></a>
+                 <h5 class="text -uppercase mb-4 font-weight-bold text-white" >Nuestras lineas Rotativas</h5>
+                 <p>(0351) 420 2000 Lunes a viernes 08:00 a 20:00 hs</p>
+             </div>
+             
+             <div class="col-md-3 col-lg-2 Col-xl-2 mx-auto mt-3">
+                 <lu class="text -uppercase mb-4 font-weight-bold text-white list-unstyled">Redes Sociales</lu>
+                 <li class="d-flex justify-content-between">
+                    <a href="https://es-la.facebook.com" class="text-resert"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://ar.linkedin.com" class="text-resert"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.instagram.com" class="text-resert"><i class="fa-brands fa-linkedin-in"></i></a>
+                 </li>
+             </div>
+
+             </div>
+
+        </div>
+
+    </div>  
+    <div>
+    <br>
+      
+   <em class="border-top border-primary"> MAM All Rights Reserved - Terminos Legales.</em>
+  </footer>
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+
 
 </body>
 </html>
