@@ -54,6 +54,12 @@ body {
 
 
 /*navbar*/
+
+
+.bordebarra:hover{
+     color: grey !important;
+  
+}
 nav  {
     display: flex;
     align-items:center;
@@ -127,7 +133,7 @@ nav  {
 
 .main_p {
     margin: 20px 20px;
-    font-family:
+    
 }
 
 /*last new section*/
@@ -215,7 +221,7 @@ h3 {
 }
 
 
-/*footer*/
+/********footer********/
 .footer {
     display: flex;
     background-color: #152d5c;
@@ -265,37 +271,34 @@ em {
 }
 
 /******** Servicios*******/
-#circuito-txt {
-    padding: 5%;
-    margin: 4%;
-    text-align: center;
-
-}
-
-#circuito-p {
-    font-size: 25px;
-    padding: 20px;
-    border: 20px;
-
-}
-
-.circuitom-container {
-
-    justify-content: center;
-    text-align: center;
+.circuito-txt {
     padding: 2%;
     margin: 2%;
-
-}
-
-
-.circuitom-item ul li {    
-    /******** poner letras centradas y mas grandes****/
-    font-size:xx-large;
     text-align: center;
-    text-decoration: none;
-    list-style-type: none;
+    font-size: 2vw;
+    
+    
+
 }
+
+.circuito-p {
+    font-size: 20px;
+    padding: 20px;
+    border: 20px;
+    text-align: center;
+   font-size: 2vw;
+   
+
+}
+
+@media screen and (max-width: 600px){
+    .circuito-p{
+        display: none;
+    }
+    
+    
+}
+
 
 /********* Contacto ********/
 
@@ -394,45 +397,9 @@ section img  {
 
 
 
-/***** Entrega Digital *****/
-
-/*.send_digital{
-    display: grid; 
-    grid-template-columns: 1fr; 
-    grid-template-rows: repeat(3, 1fr);
-    align-items: center;
-    justify-content: center;
-    padding: 3%;
-    margin: 3%;
-    font-size: 15px;
-}
-
-.dig_box1{
-    grid-area: 1 / 1 / 2 / 2;
-    align-items: center;
-    justify-content: center;
-}
-
-.dig_box2{
-    grid-area: 2 / 1 / 3 / 2; 
-    align-items: center;
-    justify-content: center
-}
-
-.dig_box3{
-    grid-area: 3 / 1 /4 / 2;
-    align-items: center;
-    justify-content: center
-}
 
 
-.controls {
-    width: 350px;
-    padding: 15px;
-    margin: 35px;
-    margin-bottom: 60px;
-  
-}*/
+
 
 /********** Turnos *********/
 
@@ -447,10 +414,17 @@ section img  {
     font-size: 15px;
 }
 
+.form-control {
+    width: 50%;
+}
+.form-select{
+    width: 50%;
+}
+
 h1{
     padding: 1%;
     margin: 2%;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 .take_turnos{
@@ -485,7 +459,11 @@ h1{
     margin: 20px;
 }
 
-
+@media screen and (min-width 600px) {
+    .body {
+        display: none;
+    }
+}
 /*********** Instituto*******/
 /*#inst_title {
     text-align: center;
@@ -512,15 +490,15 @@ h1{
 
 
 
-@media (max-width:1200px) {
-    body{
-        font-size: 14px;
-    }
-}
-
-@media (max-width:992px) {
+@media screen and (max-width:600px) {
+    .animate__animated{
+        display: none;}
     
-}
+    }    
+    
+
+
+
 
 
 
