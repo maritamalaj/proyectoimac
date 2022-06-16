@@ -1,7 +1,9 @@
-@import 'components/header';
-@import 'components/footer';
-@import 'base/variables';
-@import 'base/mixins';
+
+@import 'base/varibles.scss';
+@import 'base/mixin.scss';
+@import 'components/turnos';
+@import 'components/contacto';
+@import 'components/servicio';
 
 * {
 	margin: 0;
