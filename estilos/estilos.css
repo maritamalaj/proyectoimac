@@ -144,13 +144,20 @@ section img {
   border: 1px solid white;
   font-size: 18px;
   background-color: #132c5e;
+  margin: 0.5rem;
   color: white; }
+
+.contact-title {
+  margin: 0.5rem; }
 
 .circuito-txt {
   padding: 2%;
   margin: 2%;
   text-align: center;
-  font-size: 2vw; }
+  font-size: 3vw;
+  display: flex;
+  flex-direction: column-reverse;
+  color: #132c5e; }
 
 .circuito-p {
   font-size: 20px;
@@ -203,7 +210,7 @@ body {
     grid-area: foot;
     gap: 10px; }
 
-/*navbar*/
+/***navbar***/
 .navbar {
   margin: 0px; }
 
@@ -232,13 +239,14 @@ nav {
   list-style: none; }
 
 .logo_navbar {
-  background-image: url("logo.jpg");
+  background-image: url("logo.png");
   background-repeat: no-repeat;
   background-position: left;
   background-color: #132c5e;
   width: 90px;
   height: 100%; }
 
+/***main***/
 .item {
   float: right;
   font-size: 20px;
@@ -291,12 +299,12 @@ nav {
 p {
   font-size: 20px;
   font-family: sans-serif;
-  color: aliceblue;
+  color: white;
   margin: 20px; }
 
 h3 {
   font-family: Verdana;
-  color: #042159;
+  color: #132c5e;
   font-size: x-large;
   margin: 20px;
   padding: 20px; }
@@ -307,12 +315,6 @@ h3 {
   height: 100%;
   margin: 20px; }
 
-.ubicon {
-  width: 8%; }
-
-.telicon {
-  width: 8%; }
-
 .grid-containeredes {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -320,20 +322,6 @@ h3 {
   grid-area: auto;
   gap: 4px;
   justify-content: flex-start; }
-
-.faceicon {
-  width: 20%;
-  border-radius: 20px; }
-
-.wapicon {
-  width: 6%; }
-
-.linicon {
-  width: 20%; }
-
-.insticon {
-  width: 20%;
-  border-radius: 20px; }
 
 /*footer*/
 .footer {
@@ -344,7 +332,7 @@ h3 {
   margin: 0px 30px; }
 
 .footer_img {
-  background-image: url("logo.jpg");
+  background-image: url("logo.png");
   background-repeat: no-repeat;
   background-position: left;
   background-color: #132c5e;
@@ -372,5 +360,5 @@ em {
   font-size: 10px;
   display: flex;
   justify-content: center;
-  color: aliceblue;
+  color: white;
   text-align: center; }

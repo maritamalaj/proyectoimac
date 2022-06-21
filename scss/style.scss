@@ -50,7 +50,7 @@ body {
 }
 
 
-/*navbar*/
+/***navbar***/
 .navbar{
 	margin: 0px;
 }
@@ -81,13 +81,15 @@ nav {
     list-style: none;
 }
 .logo_navbar {
-	background-image: url("logo.jpg");
+	background-image: url("logo.png");
     background-repeat: no-repeat;
     background-position: left;
     background-color: $color-principal;
     width: 90px;
     height: 100%;
 }
+
+/***main***/
 .item {
     float: right;
     font-size: $medida-tipografia;
@@ -96,7 +98,7 @@ nav {
     padding: 20px;
 }
 .title {
-	color: white;
+	color: $color-tipografia;
 	text-align: center;
 }
 .main_section {
@@ -140,12 +142,12 @@ nav {
 p {
 	font-size: 20px;
 	font-family: sans-serif;
-	color: aliceblue;
+	color: $color-tipografia;
 	margin: 20px;
 }
 h3 {
 	font-family: Verdana;
-	color: #042159;
+	color: $color-principal;
 	font-size: x-large;
 	margin: 20px;
 	padding: 20px;
@@ -156,12 +158,8 @@ h3 {
 	height: 100%;
 	margin: 20px;
 }
-.ubicon {
-	width: 8%;
-}
-.telicon {
-	width: 8%;
-}
+
+
 .grid-containeredes {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
@@ -170,20 +168,7 @@ h3 {
 	gap: 4px;
 	justify-content: flex-start;
 }
-.faceicon {
-	width: 20%;
-	border-radius: 20px;
-}
-.wapicon {
-	width: 6%;
-}
-.linicon {
-	width: 20%;
-}
-.insticon {
-	width: 20%;
-	border-radius: 20px;
-}
+
 
 /*footer*/
 .footer {
@@ -194,7 +179,7 @@ h3 {
 	margin: 0px 30px;
 }
 .footer_img {
-	background-image: url("logo.jpg");
+	background-image: url("logo.png");
 	background-repeat: no-repeat;
 	background-position: left;
 	background-color: $color-principal;
@@ -222,7 +207,7 @@ em {
 	font-size: 10px;
 	display: flex;
 	justify-content: center;
-	color: aliceblue;
+	color:$color-tipografia;
 	text-align: center;
 }
 
