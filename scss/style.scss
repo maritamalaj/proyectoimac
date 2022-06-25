@@ -5,6 +5,10 @@
 @import 'components/contacto';
 @import 'components/servicio';
 
+.disclaimer{
+	display: none;
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -211,3 +215,6 @@ em {
 	text-align: center;
 }
 
+.disclaimer{
+	display: none;
+}
