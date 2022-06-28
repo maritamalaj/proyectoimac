@@ -68,6 +68,11 @@
   font-size: 16px;
   margin: 20px; }
 
+.fieldset {
+  padding: 10px !important;
+  margin: 10px;
+  padding: 10px; }
+
 .parent {
   display: grid;
   grid-template-columns: 1fr, 1fr;
@@ -154,7 +159,7 @@ section img {
   padding: 2%;
   margin: 2%;
   text-align: center;
-  font-size: 3vw;
+  font-size: 20px;
   display: flex;
   flex-direction: column-reverse;
   color: #132c5e; }
@@ -173,9 +178,6 @@ section img {
 @media screen and (min-width: 600px) {
   .body {
     display: none; } }
-
-.disclaimer {
-  display: none; }
 
 * {
   margin: 0;
@@ -365,6 +367,9 @@ em {
   justify-content: center;
   color: white;
   text-align: center; }
+
+.disclaimer {
+  display: none; }
 
 .disclaimer {
   display: none; }
